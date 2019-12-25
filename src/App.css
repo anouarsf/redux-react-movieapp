@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+
+.App{
+    margin-top:0px;
+}
+.header{
+    margin-top:0;
+    width: auto;
+    height: 150px;
+background-image: url("https://static.sonovente.com/img/front/big/background/2fa9d35c9224db1ffc73ad15388c5075.jpg");
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-search{
+    width: 400px;
+    height: 30px;
+    margin: 60px 450px;
+    border-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/*-----------------Container Movie/ Liste Movie ------------------------*/
+
+.container-movie{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
   }
+  .card-movie{
+  background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px 80px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 3px 3px rgb(90, 85, 78), -1.5em 0 .2em rgb(44, 42, 39);
+  }
+  
+  .card-movie:hover {
+    background-image: url(https://i.pinimg.com/236x/26/35/db/2635dbd0b89ea7c197df615667c07a4b.jpg)
+  }
+ 
+  .btn-read{
+    border-color: rgb(122, 118, 112);
+  background-color: rgb(122, 119, 116);
+  text-decoration: none;
+  width: 166px;
+  }
+  .descr-movie{
+    color: rgb(95, 4, 4);
+    font-size: 15px;
+    font-family: 'Poiret One', cursive;
+  }
+  .img-movie{
+    height:236px ;
+    width: 166px;
+  }
+  
+  .title-movie{
+    margin-top:15px;
+    text-align: center;
+    color: #493734;
+    font-family: 'Lobster Two', cursive;
+  }
+  .starsearch{
+    margin-left: 594px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn-edit{
+  width:166px;
+  height: 30px;
+}
+
+.img-movie-desc{
+ margin: 0px 520px;
+}
+
+
+
+.btn-return{
+  margin: 70px 50px;
   color: white;
+  background-color: rgb(43, 2, 2);
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.title-movie{
+  color : red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description-movie{
+  text-align: center;
+  border : 1px solid rgba(154, 163, 163, 0.4);
+  color : rgb(65, 63, 63);
+  padding : 10px;
+  margin : 30px 10px;
+  background-color: rgba(154, 163, 163, 0.4);
 }
